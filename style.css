@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.fullwebsite{
+    width: 1200px;
+    margin: auto;
+}
+.header{
+    background: rgb(50, 36, 245);
+    padding: 10px 0;
+}
+.logo img{
+    width: 80px;
+}
+.menubar{
+    text-align: right;
+}
+.menubar ul{
+    margin-bottom: 0;
+    text-align: right;
+}
+.menubar ul li{
+    display: inline-block;
+}
+.menubar ul li a{
+    display: block;
+    color: #fff;
+    padding: 12px 30px;
+    line-height: 60%;
+    font-size: 20px;
+    text-decoration: none;
+}
+.menubar ul li a:hover{
+    background: #fff;
+    color: #000;
+}
+.banner{
+    background-image: url(./morgan-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 250px 0;
+    text-align: center;
+}
+.btitle h4{
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.btitle p{
+    max-width: 900px;
+    margin: auto;
+    color: #fff;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+.btitle a{
+    color: #fff;
+    text-decoration: none;
+    background-color: rgb(52, 106, 233);
+    border-radius: 5px;
+    padding: 15px 25px;
+}
+.btitle a:hover{
+    color: black;
+    background: orangered;
+    transform: scale(1.5);
+    transition: 1s;
+}
+.mot{
+    padding: 100px 0;
+    background-color: rgb(165, 165, 204);
+}
+.mot img{
+    margin-top: 50px;
+}
+.mot a{
+    color: #fff;
+    text-decoration: none;
+    background-color: rgb(52, 106, 233);
+    border-radius: 5px;
+    padding: 10px 25px;
+}
+.mot a:hover{
+    color: #000;
+    background: orangered;
+    transform: scale(1.5);
+    transition: 1s;
+}
+
+.about{
+    background-color: gainsboro;
+}
+.about h2{
+    font-size: 30px;
+    text-align: center;
+    padding: 100px 0;
+}
+.about img{
+    float: left;
+}
+.about .pinfo{
+    float: right;
+}
+.about p{
+    clear: both;
+}
+.about span{
+    font-size: 20px;
+}
+.contact h1{
+    text-align: center;
+    font-size: 50px;
+    padding: 30px 0;
+}
+.contact input{
+    height: 40px;
+    width: 500px;
+}
+.contact textarea{
+    height: 200px;
+    width: 500px;
+}
+.contact .submit{
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    color: white;
+    background: cyan;
+    border-color: #fff;
+    border-radius: 5px;
+}
+.contact .submit:hover{
+    columns: black;
+    background: orangered;
+    transform: scale(1.5);
+    transition: 1s;
+}
+.contact label{
+    font-weight: bold;
+    font-size: 20px;
+}
+.footer{
+    background-color: rgb(52, 106, 233);
+    color: #fff;
+    padding: 5px 0;
+    font-size: 20px;
+    margin-top: 50px;
+}
